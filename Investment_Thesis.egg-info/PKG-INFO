@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Investment-Thesis
+Version: 0.0.1
+Author: Het Shah
+Author-email: hetshah1718@gmail.com
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: praw
+Requires-Dist: tweepy
+Requires-Dist: sec_api
+Requires-Dist: yfinance
+Requires-Dist: pymongo[srv]==4.6.0
+Requires-Dist: pymongo>=4.6.0
+Requires-Dist: python-dotenv
