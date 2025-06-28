@@ -2,6 +2,7 @@ from INVESTMENT_THESIS.entity.config import PipelineConfig, DataIngestionConfig,
 from INVESTMENT_THESIS.Components.Data_Fetcher import DataFetcher
 from INVESTMENT_THESIS.Components.Data_Storage import DataStorage
 from INVESTMENT_THESIS.Components.Sentiment_Analyzer import SentimentAnalyzer
+from INVESTMENT_THESIS.Components.Recommendation_Engine import RecommendationEngine
 
 from INVESTMENT_THESIS.Logging.logger import logging
 
@@ -21,7 +22,7 @@ def main():
         data_fetcher = DataFetcher(data_ingestion_config)
         data_storage = DataStorage(data_storage_config)
         sentiment_analyzer = SentimentAnalyzer(sentiment_analysis_config)
-    
+        recommendation_engine = RecommendationEngine(recommendation_config)
 
 
         # Get user input
@@ -52,6 +53,10 @@ def main():
         data_storage.store_social_media(ticker, twitter_posts, "Twitter")
         data_storage.store_financials(ticker, financials)
 
+        # Generate recommendation
+        logging.info("Generating recommendation")
+        recommendation = recommendation_engine.generate_recommendation(company_data, technicals, news_sentiment, social_sentiment)
+        data_storage.store_recommendation(ticker, {"recommendation": recommendation})
 
 
     except Exception as e:
