@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Thesis Bot</title>
+    <link href="static\style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Investment Thesis Bot</h1>
+        <p>Enter a company ticker or name to generate an investment thesis report.</p>
+        <form action="/generate-report" method="post">
+            <label for="ticker">Ticker or Company Name:</label>
+            <input type="text" id="ticker" name="ticker" value="{{ ticker | default('') }}" required>
+            <button type="submit">Generate Report</button>
+        </form>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

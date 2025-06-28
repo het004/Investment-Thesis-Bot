@@ -12,7 +12,8 @@ class PipelineConfig:
             "news": "news",
             "social_media": "social_media",
             "financials": "financials",
-            "recommendations": "recommendations"
+            "recommendations": "recommendations",
+            "technicals": "technicals"  
         }
 
 class DataIngestionConfig:
@@ -34,12 +35,12 @@ class DataStorageConfig:
 
 class SentimentAnalysisConfig:
     def __init__(self, pipeline_config: PipelineConfig):
-        pass  # No specific config needed for sentiment analysis
+        pass
 
 class RecommendationConfig:
     def __init__(self, pipeline_config: PipelineConfig):
-        pass  # No specific config needed for recommendation
+        pass
 
 class ReportConfig:
     def __init__(self, pipeline_config: PipelineConfig):
-        pass  # No specific config needed for report generation
+        pass

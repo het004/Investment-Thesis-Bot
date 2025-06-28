@@ -9,4 +9,8 @@ pymongo>=4.6.0
 python-dotenv
 textblob
 vaderSentiment
+FastAPI
+Uvicorn
+Jinja2
+pytz
 -e .

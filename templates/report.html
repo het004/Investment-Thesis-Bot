@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Thesis Report - {{ ticker }}</title>
+    <link href="static\style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Investment Thesis Report for {{ ticker }}</h1>
+        <div class="report-content">
+            {{ report | replace('\n', '<br>') | replace('## ', '<h2>') | replace('# ', '<h1>') | safe }}
+        </div>
+        <a href="/">Generate Another Report</a>
+    </div>
+</body>
+</html>

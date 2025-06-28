@@ -1,0 +1,28 @@
+[ 2025-06-28 16:01:04,834 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:01:04,834 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:01:04,837 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:01:08,413 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:01:08,442 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:01:08,442 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:01:08,443 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 16:01:08,618 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:01:08,618 ] 96 root - INFO - Fetching Yahoo Finance data for AAPL
+[ 2025-06-28 16:01:10,704 ] 24 root - INFO - Fetching news for AAPL
+[ 2025-06-28 16:01:12,417 ] 45 root - INFO - Fetching Reddit posts for AAPL
+[ 2025-06-28 16:01:12,418 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:01:15,079 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:01:15,794 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:01:16,514 ] 63 root - INFO - Fetching Twitter posts for AAPL
+[ 2025-06-28 16:01:17,222 ] 77 root - INFO - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:01:17,222 ] 81 root - INFO - Fetching SEC filings for AAPL
+[ 2025-06-28 16:01:18,964 ] 95 root - ERROR - Pipeline error: DataFetcher.fetch_technical_indicators() got an unexpected keyword argument 'storage'

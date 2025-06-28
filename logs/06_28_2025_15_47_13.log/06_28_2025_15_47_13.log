@@ -1,0 +1,54 @@
+[ 2025-06-28 15:48:22,454 ] 31 root - INFO - Initializing pipeline components
+[ 2025-06-28 15:48:22,455 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 15:48:23,064 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 15:48:27,279 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 15:48:27,308 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 15:48:27,308 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 15:48:27,308 ] 38 root - INFO - Starting analysis for TCS
+[ 2025-06-28 15:48:27,308 ] 41 root - INFO - Initiating data ingestion
+[ 2025-06-28 15:48:27,308 ] 96 root - INFO - Fetching Yahoo Finance data for TCS
+[ 2025-06-28 15:48:29,099 ] 24 root - INFO - Fetching news for TCS
+[ 2025-06-28 15:48:30,033 ] 45 root - INFO - Fetching Reddit posts for TCS
+[ 2025-06-28 15:48:30,034 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:48:33,614 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:48:34,932 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:48:35,552 ] 63 root - INFO - Fetching Twitter posts for TCS
+[ 2025-06-28 15:48:36,307 ] 81 root - INFO - Fetching SEC filings for TCS
+[ 2025-06-28 15:48:37,843 ] 73 root - ERROR - Pipeline error: DataFetcher.fetch_technical_indicators() got an unexpected keyword argument 'storage'
+[ 2025-06-28 15:50:01,924 ] 31 root - INFO - Initializing pipeline components
+[ 2025-06-28 15:50:01,925 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 15:50:01,926 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 15:50:03,840 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 15:50:03,865 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 15:50:03,867 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 15:50:03,867 ] 38 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 15:50:03,867 ] 41 root - INFO - Initiating data ingestion
+[ 2025-06-28 15:50:03,867 ] 96 root - INFO - Fetching Yahoo Finance data for AAPL
+[ 2025-06-28 15:50:04,340 ] 24 root - INFO - Fetching news for AAPL
+[ 2025-06-28 15:50:05,032 ] 45 root - INFO - Fetching Reddit posts for AAPL
+[ 2025-06-28 15:50:05,033 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:50:07,177 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:50:07,677 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 15:50:08,331 ] 63 root - INFO - Fetching Twitter posts for AAPL
+[ 2025-06-28 15:50:09,047 ] 77 root - INFO - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 15:50:09,048 ] 81 root - INFO - Fetching SEC filings for AAPL
+[ 2025-06-28 15:50:10,888 ] 73 root - ERROR - Pipeline error: DataFetcher.fetch_technical_indicators() got an unexpected keyword argument 'storage'
