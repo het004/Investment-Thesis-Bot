@@ -22,8 +22,7 @@ ist = timezone("Asia/Kolkata")
 
 def run_pipeline(ticker: str) -> dict:
     try:
-        current_time = datetime.now(ist).strftime("%I:%M %p IST on %B %d, %Y")
-        # Initialize pipeline configuration
+        current_time = datetime.now(ist).strftime("%I:%M %p IST on %B %d, %Y")  # 05:11 PM IST on June 28, 2025
         pipeline_config = PipelineConfig()
         data_ingestion_config = DataIngestionConfig(pipeline_config)
         data_storage_config = DataStorageConfig(pipeline_config)
@@ -31,7 +30,6 @@ def run_pipeline(ticker: str) -> dict:
         recommendation_config = RecommendationConfig(pipeline_config)
         report_config = ReportConfig(pipeline_config)
 
-        # Initialize modules
         logging.info("Initializing pipeline components")
         data_fetcher = DataFetcher(data_ingestion_config)
         data_storage = DataStorage(data_storage_config)
@@ -40,13 +38,11 @@ def run_pipeline(ticker: str) -> dict:
         report_generator = ReportGenerator(report_config)
 
         logging.info(f"Starting analysis for {ticker}")
-        # Correct common ticker typos
         ticker = ticker.upper()
         if ticker == "APPL":
             ticker = "AAPL"
             logging.info("Corrected ticker from APPL to AAPL")
 
-        # Check for cached recommendation from today
         collection = data_storage.db[data_storage.config.mongo_collections["recommendations"]]
         today = datetime.now(ist).replace(hour=0, minute=0, second=0, microsecond=0)
         cached_recommendation = collection.find_one({"ticker": ticker, "generated_at": {"$gte": today}})
@@ -57,7 +53,6 @@ def run_pipeline(ticker: str) -> dict:
             last_update = cached_recommendation["generated_at"].astimezone(ist).strftime("%I:%M %p IST")
             return {"status": "success", "report": report, "ticker": ticker, "last_update": last_update}
 
-        # Data ingestion
         logging.info("Initiating data ingestion")
         company_data = data_fetcher.fetch_yahoo_finance_data(ticker)
         news = data_fetcher.fetch_news(ticker)
@@ -66,12 +61,10 @@ def run_pipeline(ticker: str) -> dict:
         financials = data_fetcher.fetch_sec_filings(ticker)
         technicals = data_fetcher.fetch_technical_indicators(ticker, storage=data_storage)
 
-        # Sentiment analysis
         logging.info("Performing sentiment analysis")
         news_sentiment = sentiment_analyzer.analyze_news(news)
         social_sentiment = sentiment_analyzer.analyze_social_media(reddit_posts + twitter_posts)
 
-        # Data storage
         logging.info("Storing data in MongoDB")
         data_storage.store_company_data(ticker, company_data)
         data_storage.store_news(ticker, news)
@@ -80,12 +73,10 @@ def run_pipeline(ticker: str) -> dict:
         data_storage.store_financials(ticker, financials)
         data_storage.store_technicals(ticker, technicals)
 
-        # Generate recommendation
         logging.info("Generating recommendation")
         recommendation = recommendation_engine.generate_recommendation(company_data, technicals, news_sentiment, social_sentiment)
         data_storage.store_recommendation(ticker, {"recommendation": recommendation})
 
-        # Generate report with current time
         logging.info("Generating final report")
         report = report_generator.generate_report(
             ticker, company_data, news, social_sentiment, financials, technicals, recommendation
@@ -101,14 +92,18 @@ async def get_index(request: Request):
 
 @app.post("/generate-report")
 async def generate_report(request: Request, ticker: str = Form(...)):
-    result = run_pipeline(ticker)
-    if result["status"] == "success":
-        return templates.TemplateResponse(
-            "report.html",
-            {"request": request, "report": result["report"], "ticker": result["ticker"], "last_update": result["last_update"]}
-        )
-    else:
-        return templates.TemplateResponse("index.html", {"request": request, "error": result["message"], "ticker": result["ticker"]})
+    try:
+        result = run_pipeline(ticker)
+        if result["status"] == "success":
+            return templates.TemplateResponse(
+                "report.html",
+                {"request": request, "report": result["report"], "ticker": result["ticker"], "last_update": result["last_update"]}
+            )
+        else:
+            return templates.TemplateResponse("index.html", {"request": request, "error": result["message"], "ticker": result["ticker"]})
+    except Exception as e:
+        logging.error(f"Endpoint error: {e}")
+        return templates.TemplateResponse("index.html", {"request": request, "error": str(e), "ticker": ticker})
 
 @app.get("/api/report/{ticker}")
 async def get_report(ticker: str):
@@ -116,6 +111,6 @@ async def get_report(ticker: str):
     return result
 
 if __name__ == "__main__":
-    logging.info("App ready to be served by Railway")
+    logging.info("App ready to be served ")
     # import uvicorn
     # uvicorn.run(app, host="0.0.0.0", port=8000)
