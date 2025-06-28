@@ -13,3 +13,4 @@ Requires-Dist: pymongo[srv]==4.6.0
 Requires-Dist: pymongo>=4.6.0
 Requires-Dist: python-dotenv
 Requires-Dist: textblob
+Requires-Dist: vaderSentiment

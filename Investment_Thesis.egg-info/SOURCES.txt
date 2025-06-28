@@ -3,6 +3,7 @@ setup.py
 INVESTMENT_THESIS/__init__.py
 INVESTMENT_THESIS/Components/Data_Fetcher.py
 INVESTMENT_THESIS/Components/Data_Storage.py
+INVESTMENT_THESIS/Components/Sentiment_Analyzer.py
 INVESTMENT_THESIS/Components/__init__.py
 INVESTMENT_THESIS/Exception/__init__.py
 INVESTMENT_THESIS/Exception/exception.py

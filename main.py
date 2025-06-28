@@ -1,7 +1,7 @@
 from INVESTMENT_THESIS.entity.config import PipelineConfig, DataIngestionConfig, DataStorageConfig, SentimentAnalysisConfig, RecommendationConfig, ReportConfig
 from INVESTMENT_THESIS.Components.Data_Fetcher import DataFetcher
 from INVESTMENT_THESIS.Components.Data_Storage import DataStorage
-
+from INVESTMENT_THESIS.Components.Sentiment_Analyzer import SentimentAnalyzer
 
 from INVESTMENT_THESIS.Logging.logger import logging
 
@@ -20,6 +20,7 @@ def main():
         logging.info("Initializing pipeline components")
         data_fetcher = DataFetcher(data_ingestion_config)
         data_storage = DataStorage(data_storage_config)
+        sentiment_analyzer = SentimentAnalyzer(sentiment_analysis_config)
     
 
 
@@ -35,6 +36,13 @@ def main():
         twitter_posts = data_fetcher.fetch_twitter_posts(ticker)
         financials = data_fetcher.fetch_sec_filings(ticker)
         technicals = data_fetcher.fetch_technical_indicators(ticker)
+
+
+        # Sentiment analysis
+        logging.info("Performing sentiment analysis")
+        news_sentiment = sentiment_analyzer.analyze_news(news)
+        social_sentiment = sentiment_analyzer.analyze_social_media(reddit_posts + twitter_posts)
+
 
         # Data storage
         logging.info("Storing data in MongoDB")
