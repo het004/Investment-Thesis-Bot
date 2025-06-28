@@ -523,3 +523,39 @@ Too Many Requests
 [ 2025-06-28 16:30:34,299 ] 89 root - INFO - Generating final report
 [ 2025-06-28 16:30:34,299 ] 9 root - INFO - Generating report for JPM
 [ 2025-06-28 16:30:34,299 ] 66 root - INFO - Report generated successfully for JPM
+[ 2025-06-28 17:32:00,378 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 17:32:00,388 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 17:32:00,419 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 17:32:03,021 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 17:32:03,089 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 17:32:03,089 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 17:32:03,089 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 17:32:03,173 ] 9 root - INFO - Generating report for AAPL
+[ 2025-06-28 17:32:03,175 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-06-28 17:32:12,617 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 17:32:12,617 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 17:32:12,618 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 17:32:15,106 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 17:32:15,143 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 17:32:15,144 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 17:32:15,144 ] 42 root - INFO - Starting analysis for meta
+[ 2025-06-28 17:32:15,304 ] 9 root - INFO - Generating report for META
+[ 2025-06-28 17:32:15,304 ] 66 root - INFO - Report generated successfully for META
+[ 2025-06-28 17:33:05,091 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 17:33:05,092 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 17:33:05,092 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 17:33:07,120 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 17:33:07,142 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 17:33:07,142 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 17:33:07,142 ] 42 root - INFO - Starting analysis for JPM
+[ 2025-06-28 17:33:07,324 ] 9 root - INFO - Generating report for JPM
+[ 2025-06-28 17:33:07,325 ] 66 root - INFO - Report generated successfully for JPM
+[ 2025-06-28 17:38:27,097 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 17:38:27,100 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 17:38:27,112 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 17:38:29,381 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 17:38:29,429 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 17:38:29,429 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 17:38:29,429 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 17:38:29,587 ] 9 root - INFO - Generating report for AAPL
+[ 2025-06-28 17:38:29,588 ] 66 root - INFO - Report generated successfully for AAPL

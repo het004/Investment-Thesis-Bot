@@ -1,0 +1,9 @@
+[ 2025-06-28 17:44:41,513 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 17:44:41,514 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 17:44:42,240 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 17:44:45,509 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 17:44:45,537 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 17:44:45,537 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 17:44:45,537 ] 42 root - INFO - Starting analysis for meta
+[ 2025-06-28 17:44:45,609 ] 9 root - INFO - Generating report for META
+[ 2025-06-28 17:44:45,610 ] 66 root - INFO - Report generated successfully for META
