@@ -13,3 +13,4 @@ FastAPI
 Uvicorn
 Jinja2
 pytz
+python-multipart

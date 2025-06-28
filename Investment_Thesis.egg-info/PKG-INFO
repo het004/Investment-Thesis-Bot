@@ -18,3 +18,4 @@ Requires-Dist: FastAPI
 Requires-Dist: Uvicorn
 Requires-Dist: Jinja2
 Requires-Dist: pytz
+Requires-Dist: python-multipart
