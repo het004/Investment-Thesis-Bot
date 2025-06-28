@@ -116,5 +116,6 @@ async def get_report(ticker: str):
     return result
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    logging.info("App ready to be served by Railway")
+    # import uvicorn
+    # uvicorn.run(app, host="0.0.0.0", port=8000)
