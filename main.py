@@ -1,5 +1,6 @@
 from INVESTMENT_THESIS.entity.config import PipelineConfig, DataIngestionConfig, DataStorageConfig, SentimentAnalysisConfig, RecommendationConfig, ReportConfig
 from INVESTMENT_THESIS.Components.Data_Fetcher import DataFetcher
+from INVESTMENT_THESIS.Components.Data_Storage import DataStorage
 
 
 from INVESTMENT_THESIS.Logging.logger import logging
@@ -11,10 +12,14 @@ def main():
         pipeline_config = PipelineConfig()
         data_ingestion_config = DataIngestionConfig(pipeline_config)
         data_storage_config = DataStorageConfig(pipeline_config)
+        sentiment_analysis_config = SentimentAnalysisConfig(pipeline_config)
+        recommendation_config = RecommendationConfig(pipeline_config)
+        report_config = ReportConfig(pipeline_config)
 
         # Initialize modules
         logging.info("Initializing pipeline components")
         data_fetcher = DataFetcher(data_ingestion_config)
+        data_storage = DataStorage(data_storage_config)
     
 
 
@@ -31,7 +36,13 @@ def main():
         financials = data_fetcher.fetch_sec_filings(ticker)
         technicals = data_fetcher.fetch_technical_indicators(ticker)
 
-
+        # Data storage
+        logging.info("Storing data in MongoDB")
+        data_storage.store_company_data(ticker, company_data)
+        data_storage.store_news(ticker, news)
+        data_storage.store_social_media(ticker, reddit_posts, "Reddit")
+        data_storage.store_social_media(ticker, twitter_posts, "Twitter")
+        data_storage.store_financials(ticker, financials)
 
 
 

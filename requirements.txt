@@ -7,4 +7,5 @@ yfinance
 pymongo[srv]==4.6.0
 pymongo>=4.6.0
 python-dotenv
+textblob
 -e .
