@@ -1,0 +1,525 @@
+[ 2025-06-28 16:19:30,844 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:19:30,845 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:19:30,848 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:19:33,560 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:19:33,590 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:19:33,590 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:19:33,590 ] 42 root - INFO - Starting analysis for TCS
+[ 2025-06-28 16:19:33,766 ] 9 root - INFO - Generating report for TCS
+[ 2025-06-28 16:19:33,767 ] 66 root - INFO - Report generated successfully for TCS
+[ 2025-06-28 16:19:50,612 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:19:50,613 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:19:50,613 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:19:52,812 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:19:52,830 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:19:52,831 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:19:52,831 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 16:19:53,017 ] 9 root - INFO - Generating report for AAPL
+[ 2025-06-28 16:19:53,018 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-06-28 16:20:10,548 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:20:10,548 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:20:10,549 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:20:13,395 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:20:13,413 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:20:13,413 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:20:13,413 ] 42 root - INFO - Starting analysis for meta
+[ 2025-06-28 16:20:13,592 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:20:13,592 ] 97 root - INFO - Fetching Yahoo Finance data for META
+[ 2025-06-28 16:20:15,553 ] 25 root - INFO - Fetching news for META
+[ 2025-06-28 16:20:16,582 ] 46 root - INFO - Fetching Reddit posts for META
+[ 2025-06-28 16:20:16,583 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:20:18,830 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:20:19,862 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:20:20,538 ] 64 root - INFO - Fetching Twitter posts for META
+[ 2025-06-28 16:20:21,384 ] 82 root - INFO - Fetching SEC filings for META
+[ 2025-06-28 16:20:23,023 ] 113 root - INFO - Fetching technical indicators for META
+[ 2025-06-28 16:20:25,274 ] 84 root - INFO - Stored technicals for META
+[ 2025-06-28 16:20:25,276 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:20:25,276 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:20:25,353 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:20:25,379 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:20:25,465 ] 31 root - INFO - Stored company data for META
+[ 2025-06-28 16:20:26,912 ] 42 root - INFO - Stored news for META
+[ 2025-06-28 16:20:30,905 ] 54 root - INFO - Stored Reddit data for META
+[ 2025-06-28 16:20:32,350 ] 54 root - INFO - Stored Twitter data for META
+[ 2025-06-28 16:20:32,474 ] 64 root - INFO - Stored financials for META
+[ 2025-06-28 16:20:32,571 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc8f1ce6d46ae80b347eb') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc8f1ce6d46ae80b347eb') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fc8f1ce6d46ae80b347eb')}}
+[ 2025-06-28 16:20:32,571 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:20:32,571 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:20:32,571 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:20:32,749 ] 74 root - INFO - Stored recommendation for META
+[ 2025-06-28 16:20:32,749 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:20:32,749 ] 9 root - INFO - Generating report for META
+[ 2025-06-28 16:20:32,749 ] 66 root - INFO - Report generated successfully for META
+[ 2025-06-28 16:21:52,599 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:21:52,600 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:21:52,600 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:21:57,437 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:21:57,464 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:21:57,464 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:21:57,464 ] 42 root - INFO - Starting analysis for apple
+[ 2025-06-28 16:21:57,649 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:21:57,650 ] 97 root - INFO - Fetching Yahoo Finance data for APPLE
+[ 2025-06-28 16:21:58,256 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 16:21:58,770 ] 25 root - INFO - Fetching news for APPLE
+[ 2025-06-28 16:22:00,509 ] 46 root - INFO - Fetching Reddit posts for APPLE
+[ 2025-06-28 16:22:00,511 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:22:02,872 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:22:03,589 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:22:04,202 ] 64 root - INFO - Fetching Twitter posts for APPLE
+[ 2025-06-28 16:22:04,836 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:22:04,837 ] 82 root - INFO - Fetching SEC filings for APPLE
+[ 2025-06-28 16:22:06,362 ] 113 root - INFO - Fetching technical indicators for APPLE
+[ 2025-06-28 16:22:07,370 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:22:07,371 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:22:07,371 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:22:07,383 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:22:07,400 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:22:07,595 ] 31 root - INFO - Stored company data for APPLE
+[ 2025-06-28 16:22:08,587 ] 42 root - INFO - Stored news for APPLE
+[ 2025-06-28 16:22:11,772 ] 54 root - INFO - Stored Reddit data for APPLE
+[ 2025-06-28 16:22:11,772 ] 54 root - INFO - Stored Twitter data for APPLE
+[ 2025-06-28 16:22:11,977 ] 64 root - INFO - Stored financials for APPLE
+[ 2025-06-28 16:22:12,079 ] 84 root - INFO - Stored technicals for APPLE
+[ 2025-06-28 16:22:12,080 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:22:12,080 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:22:12,080 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:22:12,183 ] 74 root - INFO - Stored recommendation for APPLE
+[ 2025-06-28 16:22:12,183 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:22:12,183 ] 9 root - INFO - Generating report for APPLE
+[ 2025-06-28 16:22:12,184 ] 66 root - INFO - Report generated successfully for APPLE
+[ 2025-06-28 16:23:09,808 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:23:09,808 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:23:09,809 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:23:12,907 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:23:12,932 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:23:12,933 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:23:12,933 ] 42 root - INFO - Starting analysis for cisco
+[ 2025-06-28 16:23:13,112 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:23:13,112 ] 97 root - INFO - Fetching Yahoo Finance data for CISCO
+[ 2025-06-28 16:23:13,727 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 16:23:14,115 ] 25 root - INFO - Fetching news for CISCO
+[ 2025-06-28 16:23:15,174 ] 46 root - INFO - Fetching Reddit posts for CISCO
+[ 2025-06-28 16:23:15,176 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:17,428 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:18,239 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:19,055 ] 64 root - INFO - Fetching Twitter posts for CISCO
+[ 2025-06-28 16:23:19,686 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:23:19,686 ] 82 root - INFO - Fetching SEC filings for CISCO
+[ 2025-06-28 16:23:21,411 ] 113 root - INFO - Fetching technical indicators for CISCO
+[ 2025-06-28 16:23:22,573 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:23:22,573 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:23:22,573 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:23:22,582 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:23:22,597 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:23:22,840 ] 31 root - INFO - Stored company data for CISCO
+[ 2025-06-28 16:23:24,581 ] 42 root - INFO - Stored news for CISCO
+[ 2025-06-28 16:23:29,703 ] 54 root - INFO - Stored Reddit data for CISCO
+[ 2025-06-28 16:23:29,704 ] 54 root - INFO - Stored Twitter data for CISCO
+[ 2025-06-28 16:23:29,805 ] 64 root - INFO - Stored financials for CISCO
+[ 2025-06-28 16:23:29,908 ] 84 root - INFO - Stored technicals for CISCO
+[ 2025-06-28 16:23:29,909 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:23:29,909 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:23:29,909 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:23:30,012 ] 74 root - INFO - Stored recommendation for CISCO
+[ 2025-06-28 16:23:30,014 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:23:30,014 ] 9 root - INFO - Generating report for CISCO
+[ 2025-06-28 16:23:30,014 ] 66 root - INFO - Report generated successfully for CISCO
+[ 2025-06-28 16:23:45,390 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:23:45,390 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:23:45,390 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:23:47,929 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:23:47,947 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:23:47,948 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:23:47,948 ] 42 root - INFO - Starting analysis for tesla
+[ 2025-06-28 16:23:48,134 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:23:48,134 ] 97 root - INFO - Fetching Yahoo Finance data for TESLA
+[ 2025-06-28 16:23:48,850 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 16:23:49,366 ] 25 root - INFO - Fetching news for TESLA
+[ 2025-06-28 16:23:50,185 ] 46 root - INFO - Fetching Reddit posts for TESLA
+[ 2025-06-28 16:23:50,185 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:52,544 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:53,260 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:23:53,976 ] 64 root - INFO - Fetching Twitter posts for TESLA
+[ 2025-06-28 16:23:54,792 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:23:54,793 ] 82 root - INFO - Fetching SEC filings for TESLA
+[ 2025-06-28 16:23:56,430 ] 113 root - INFO - Fetching technical indicators for TESLA
+[ 2025-06-28 16:23:57,250 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:23:57,251 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:23:57,251 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:23:57,257 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:23:57,271 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:23:57,454 ] 31 root - INFO - Stored company data for TESLA
+[ 2025-06-28 16:23:58,988 ] 42 root - INFO - Stored news for TESLA
+[ 2025-06-28 16:24:03,801 ] 54 root - INFO - Stored Reddit data for TESLA
+[ 2025-06-28 16:24:03,802 ] 54 root - INFO - Stored Twitter data for TESLA
+[ 2025-06-28 16:24:04,108 ] 64 root - INFO - Stored financials for TESLA
+[ 2025-06-28 16:24:04,416 ] 84 root - INFO - Stored technicals for TESLA
+[ 2025-06-28 16:24:04,416 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:24:04,416 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:24:04,417 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:24:04,621 ] 74 root - INFO - Stored recommendation for TESLA
+[ 2025-06-28 16:24:04,621 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:24:04,621 ] 9 root - INFO - Generating report for TESLA
+[ 2025-06-28 16:24:04,622 ] 66 root - INFO - Report generated successfully for TESLA
+[ 2025-06-28 16:24:38,308 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:24:38,308 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:24:38,309 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:24:41,282 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:24:41,300 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:24:41,301 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:24:41,301 ] 42 root - INFO - Starting analysis for amazon
+[ 2025-06-28 16:24:41,470 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:24:41,470 ] 97 root - INFO - Fetching Yahoo Finance data for AMAZON
+[ 2025-06-28 16:24:42,166 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 16:24:42,511 ] 25 root - INFO - Fetching news for AMAZON
+[ 2025-06-28 16:24:44,520 ] 46 root - INFO - Fetching Reddit posts for AMAZON
+[ 2025-06-28 16:24:44,521 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:24:46,939 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:24:47,636 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:24:48,352 ] 64 root - INFO - Fetching Twitter posts for AMAZON
+[ 2025-06-28 16:24:49,271 ] 82 root - INFO - Fetching SEC filings for AMAZON
+[ 2025-06-28 16:24:51,011 ] 113 root - INFO - Fetching technical indicators for AMAZON
+[ 2025-06-28 16:24:52,751 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:24:52,752 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:24:52,752 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:24:52,765 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:24:52,788 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:24:52,954 ] 31 root - INFO - Stored company data for AMAZON
+[ 2025-06-28 16:24:53,979 ] 42 root - INFO - Stored news for AMAZON
+[ 2025-06-28 16:24:58,177 ] 54 root - INFO - Stored Reddit data for AMAZON
+[ 2025-06-28 16:24:59,310 ] 54 root - INFO - Stored Twitter data for AMAZON
+[ 2025-06-28 16:24:59,406 ] 64 root - INFO - Stored financials for AMAZON
+[ 2025-06-28 16:24:59,510 ] 84 root - INFO - Stored technicals for AMAZON
+[ 2025-06-28 16:24:59,510 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:24:59,510 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:24:59,510 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 16:24:59,714 ] 74 root - INFO - Stored recommendation for AMAZON
+[ 2025-06-28 16:24:59,714 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:24:59,714 ] 9 root - INFO - Generating report for AMAZON
+[ 2025-06-28 16:24:59,714 ] 66 root - INFO - Report generated successfully for AMAZON
+[ 2025-06-28 16:25:30,403 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:25:30,403 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:25:30,404 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:25:33,506 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:25:33,525 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:25:33,525 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:25:33,525 ] 42 root - INFO - Starting analysis for Microsoft
+[ 2025-06-28 16:25:33,710 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:25:33,710 ] 97 root - INFO - Fetching Yahoo Finance data for MICROSOFT
+[ 2025-06-28 16:25:34,530 ] 25 root - INFO - Fetching news for MICROSOFT
+[ 2025-06-28 16:25:35,251 ] 46 root - INFO - Fetching Reddit posts for MICROSOFT
+[ 2025-06-28 16:25:35,252 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:25:37,592 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:25:38,633 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:25:39,655 ] 64 root - INFO - Fetching Twitter posts for MICROSOFT
+[ 2025-06-28 16:25:40,370 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:25:40,370 ] 82 root - INFO - Fetching SEC filings for MICROSOFT
+[ 2025-06-28 16:25:42,008 ] 113 root - INFO - Fetching technical indicators for MICROSOFT
+[ 2025-06-28 16:25:43,033 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:25:43,034 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:25:43,034 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:25:43,039 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:25:43,053 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:25:43,234 ] 31 root - INFO - Stored company data for MICROSOFT
+[ 2025-06-28 16:25:45,897 ] 42 root - INFO - Stored news for MICROSOFT
+[ 2025-06-28 16:25:51,938 ] 54 root - INFO - Stored Reddit data for MICROSOFT
+[ 2025-06-28 16:25:51,940 ] 54 root - INFO - Stored Twitter data for MICROSOFT
+[ 2025-06-28 16:25:52,150 ] 64 root - INFO - Stored financials for MICROSOFT
+[ 2025-06-28 16:25:52,348 ] 84 root - INFO - Stored technicals for MICROSOFT
+[ 2025-06-28 16:25:52,348 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:25:52,348 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:25:52,348 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:25:52,554 ] 74 root - INFO - Stored recommendation for MICROSOFT
+[ 2025-06-28 16:25:52,554 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:25:52,554 ] 9 root - INFO - Generating report for MICROSOFT
+[ 2025-06-28 16:25:52,554 ] 66 root - INFO - Report generated successfully for MICROSOFT
+[ 2025-06-28 16:26:19,683 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:26:19,683 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:26:19,683 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:26:22,762 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:26:22,788 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:26:22,788 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:26:22,788 ] 42 root - INFO - Starting analysis for Alphabet
+[ 2025-06-28 16:26:22,967 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:26:22,967 ] 97 root - INFO - Fetching Yahoo Finance data for ALPHABET
+[ 2025-06-28 16:26:23,632 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 16:26:24,298 ] 25 root - INFO - Fetching news for ALPHABET
+[ 2025-06-28 16:26:25,368 ] 46 root - INFO - Fetching Reddit posts for ALPHABET
+[ 2025-06-28 16:26:25,369 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:26:27,870 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:26:28,912 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:26:29,936 ] 64 root - INFO - Fetching Twitter posts for ALPHABET
+[ 2025-06-28 16:26:31,327 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:26:31,328 ] 82 root - INFO - Fetching SEC filings for ALPHABET
+[ 2025-06-28 16:26:32,902 ] 113 root - INFO - Fetching technical indicators for ALPHABET
+[ 2025-06-28 16:26:34,056 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-06-28 16:26:34,057 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:26:34,057 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:26:34,072 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:26:34,089 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:26:34,191 ] 31 root - INFO - Stored company data for ALPHABET
+[ 2025-06-28 16:26:35,358 ] 42 root - INFO - Stored news for ALPHABET
+[ 2025-06-28 16:26:40,068 ] 54 root - INFO - Stored Reddit data for ALPHABET
+[ 2025-06-28 16:26:40,068 ] 54 root - INFO - Stored Twitter data for ALPHABET
+[ 2025-06-28 16:26:40,273 ] 64 root - INFO - Stored financials for ALPHABET
+[ 2025-06-28 16:26:40,374 ] 84 root - INFO - Stored technicals for ALPHABET
+[ 2025-06-28 16:26:40,374 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:26:40,374 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:26:40,374 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:26:40,617 ] 74 root - INFO - Stored recommendation for ALPHABET
+[ 2025-06-28 16:26:40,617 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:26:40,617 ] 9 root - INFO - Generating report for ALPHABET
+[ 2025-06-28 16:26:40,617 ] 66 root - INFO - Report generated successfully for ALPHABET
+[ 2025-06-28 16:27:28,979 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:27:28,979 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:27:28,980 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:27:31,900 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:27:31,923 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:27:31,923 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:27:31,923 ] 42 root - INFO - Starting analysis for GOOG
+[ 2025-06-28 16:27:32,089 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:27:32,089 ] 97 root - INFO - Fetching Yahoo Finance data for GOOG
+[ 2025-06-28 16:27:32,909 ] 25 root - INFO - Fetching news for GOOG
+[ 2025-06-28 16:27:33,733 ] 46 root - INFO - Fetching Reddit posts for GOOG
+[ 2025-06-28 16:27:33,734 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:27:35,985 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:27:36,620 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:27:37,317 ] 64 root - INFO - Fetching Twitter posts for GOOG
+[ 2025-06-28 16:27:38,030 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:27:38,031 ] 82 root - INFO - Fetching SEC filings for GOOG
+[ 2025-06-28 16:27:39,668 ] 113 root - INFO - Fetching technical indicators for GOOG
+[ 2025-06-28 16:27:41,715 ] 84 root - INFO - Stored technicals for GOOG
+[ 2025-06-28 16:27:41,716 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:27:41,716 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:27:41,736 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:27:41,751 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:27:41,920 ] 31 root - INFO - Stored company data for GOOG
+[ 2025-06-28 16:27:43,660 ] 42 root - INFO - Stored news for GOOG
+[ 2025-06-28 16:27:49,190 ] 54 root - INFO - Stored Reddit data for GOOG
+[ 2025-06-28 16:27:49,191 ] 54 root - INFO - Stored Twitter data for GOOG
+[ 2025-06-28 16:27:49,395 ] 64 root - INFO - Stored financials for GOOG
+[ 2025-06-28 16:27:49,600 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcaa5ce6d46ae80b34933') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcaa5ce6d46ae80b34933') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fcaa5ce6d46ae80b34933')}}
+[ 2025-06-28 16:27:49,600 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:27:49,600 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:27:49,600 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 16:27:49,702 ] 74 root - INFO - Stored recommendation for GOOG
+[ 2025-06-28 16:27:49,702 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:27:49,702 ] 9 root - INFO - Generating report for GOOG
+[ 2025-06-28 16:27:49,703 ] 66 root - INFO - Report generated successfully for GOOG
+[ 2025-06-28 16:28:24,123 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:28:24,123 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:28:24,127 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:28:27,181 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:28:27,199 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:28:27,200 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:28:27,200 ] 42 root - INFO - Starting analysis for amzn
+[ 2025-06-28 16:28:27,487 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:28:27,489 ] 97 root - INFO - Fetching Yahoo Finance data for AMZN
+[ 2025-06-28 16:28:28,104 ] 25 root - INFO - Fetching news for AMZN
+[ 2025-06-28 16:28:29,029 ] 46 root - INFO - Fetching Reddit posts for AMZN
+[ 2025-06-28 16:28:29,030 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:28:31,180 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:28:31,805 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:28:32,923 ] 64 root - INFO - Fetching Twitter posts for AMZN
+[ 2025-06-28 16:28:33,534 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:28:33,534 ] 82 root - INFO - Fetching SEC filings for AMZN
+[ 2025-06-28 16:28:35,067 ] 113 root - INFO - Fetching technical indicators for AMZN
+[ 2025-06-28 16:28:37,114 ] 84 root - INFO - Stored technicals for AMZN
+[ 2025-06-28 16:28:37,116 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:28:37,117 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:28:37,132 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:28:37,145 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:28:37,217 ] 31 root - INFO - Stored company data for AMZN
+[ 2025-06-28 16:28:38,446 ] 42 root - INFO - Stored news for AMZN
+[ 2025-06-28 16:28:43,163 ] 54 root - INFO - Stored Reddit data for AMZN
+[ 2025-06-28 16:28:43,163 ] 54 root - INFO - Stored Twitter data for AMZN
+[ 2025-06-28 16:28:43,475 ] 64 root - INFO - Stored financials for AMZN
+[ 2025-06-28 16:28:43,788 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcadcce6d46ae80b3495f') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcadcce6d46ae80b3495f') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fcadcce6d46ae80b3495f')}}
+[ 2025-06-28 16:28:43,788 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:28:43,788 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:28:43,788 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:28:43,977 ] 74 root - INFO - Stored recommendation for AMZN
+[ 2025-06-28 16:28:43,977 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:28:43,977 ] 9 root - INFO - Generating report for AMZN
+[ 2025-06-28 16:28:43,977 ] 66 root - INFO - Report generated successfully for AMZN
+[ 2025-06-28 16:29:01,621 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:29:01,621 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:29:01,625 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:29:04,568 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:29:04,588 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:29:04,588 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:29:04,588 ] 42 root - INFO - Starting analysis for NVDA
+[ 2025-06-28 16:29:04,762 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:29:04,762 ] 97 root - INFO - Fetching Yahoo Finance data for NVDA
+[ 2025-06-28 16:29:05,792 ] 25 root - INFO - Fetching news for NVDA
+[ 2025-06-28 16:29:07,855 ] 46 root - INFO - Fetching Reddit posts for NVDA
+[ 2025-06-28 16:29:07,856 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:29:09,992 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:29:10,721 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:29:11,423 ] 64 root - INFO - Fetching Twitter posts for NVDA
+[ 2025-06-28 16:29:12,241 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:29:12,241 ] 82 root - INFO - Fetching SEC filings for NVDA
+[ 2025-06-28 16:29:13,704 ] 113 root - INFO - Fetching technical indicators for NVDA
+[ 2025-06-28 16:29:15,926 ] 84 root - INFO - Stored technicals for NVDA
+[ 2025-06-28 16:29:15,928 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:29:15,928 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:29:15,940 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:29:15,954 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:29:16,129 ] 31 root - INFO - Stored company data for NVDA
+[ 2025-06-28 16:29:17,665 ] 42 root - INFO - Stored news for NVDA
+[ 2025-06-28 16:29:22,274 ] 54 root - INFO - Stored Reddit data for NVDA
+[ 2025-06-28 16:29:22,274 ] 54 root - INFO - Stored Twitter data for NVDA
+[ 2025-06-28 16:29:22,583 ] 64 root - INFO - Stored financials for NVDA
+[ 2025-06-28 16:29:22,776 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcb03ce6d46ae80b3498b') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcb03ce6d46ae80b3498b') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fcb03ce6d46ae80b3498b')}}
+[ 2025-06-28 16:29:22,777 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:29:22,777 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:29:22,777 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 16:29:22,888 ] 74 root - INFO - Stored recommendation for NVDA
+[ 2025-06-28 16:29:22,888 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:29:22,888 ] 9 root - INFO - Generating report for NVDA
+[ 2025-06-28 16:29:22,889 ] 66 root - INFO - Report generated successfully for NVDA
+[ 2025-06-28 16:29:55,181 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:29:55,181 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:29:55,182 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:29:57,603 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:29:57,621 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:29:57,621 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:29:57,621 ] 42 root - INFO - Starting analysis for JPM
+[ 2025-06-28 16:29:57,808 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:29:57,808 ] 97 root - INFO - Fetching Yahoo Finance data for JPM
+[ 2025-06-28 16:29:58,525 ] 25 root - INFO - Fetching news for JPM
+[ 2025-06-28 16:29:59,556 ] 46 root - INFO - Fetching Reddit posts for JPM
+[ 2025-06-28 16:29:59,557 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:30:02,226 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:30:02,819 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:30:03,390 ] 64 root - INFO - Fetching Twitter posts for JPM
+[ 2025-06-28 16:30:04,216 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:30:04,216 ] 82 root - INFO - Fetching SEC filings for JPM
+[ 2025-06-28 16:30:07,468 ] 113 root - INFO - Fetching technical indicators for JPM
+[ 2025-06-28 16:30:11,938 ] 84 root - INFO - Stored technicals for JPM
+[ 2025-06-28 16:30:11,939 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:30:11,940 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:30:11,960 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:30:11,982 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:30:12,100 ] 31 root - INFO - Stored company data for JPM
+[ 2025-06-28 16:30:14,938 ] 42 root - INFO - Stored news for JPM
+[ 2025-06-28 16:30:32,936 ] 54 root - INFO - Stored Reddit data for JPM
+[ 2025-06-28 16:30:32,936 ] 54 root - INFO - Stored Twitter data for JPM
+[ 2025-06-28 16:30:33,547 ] 64 root - INFO - Stored financials for JPM
+[ 2025-06-28 16:30:34,063 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcb3bce6d46ae80b349b7') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fcb3bce6d46ae80b349b7') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fcb3bce6d46ae80b349b7')}}
+[ 2025-06-28 16:30:34,063 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:30:34,064 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:30:34,064 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 16:30:34,297 ] 74 root - INFO - Stored recommendation for JPM
+[ 2025-06-28 16:30:34,299 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:30:34,299 ] 9 root - INFO - Generating report for JPM
+[ 2025-06-28 16:30:34,299 ] 66 root - INFO - Report generated successfully for JPM
