@@ -1,0 +1,14 @@
+[ 2025-06-28 19:29:17,038 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 19:29:17,039 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 19:29:17,060 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 19:29:37,065 ] 20 root - ERROR - Error connecting to MongoDB: The DNS operation timed out after 20.000682592391968 seconds
+[ 2025-06-28 19:29:37,066 ] 95 root - ERROR - Pipeline error: The DNS operation timed out after 20.000682592391968 seconds
+[ 2025-06-28 19:30:36,856 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 19:30:36,856 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 19:30:36,857 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 19:30:39,364 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 19:30:39,387 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 19:30:39,388 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 19:30:39,388 ] 42 root - INFO - Starting analysis for meta
+[ 2025-06-28 19:30:39,459 ] 9 root - INFO - Generating report for META
+[ 2025-06-28 19:30:39,459 ] 66 root - INFO - Report generated successfully for META
