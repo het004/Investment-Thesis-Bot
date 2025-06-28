@@ -1,0 +1,25 @@
+[ 2025-06-28 15:17:56,734 ] 21 root - INFO - Initializing pipeline components
+[ 2025-06-28 15:17:56,736 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 15:17:56,738 ] 9 root - INFO - Initializing DataStorage
+[ 2025-06-28 15:17:57,395 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 15:17:57,416 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 15:18:03,410 ] 30 root - INFO - Starting analysis for TCS
+[ 2025-06-28 15:18:03,410 ] 33 root - INFO - Initiating data ingestion
+[ 2025-06-28 15:18:03,411 ] 96 root - INFO - Fetching Yahoo Finance data for TCS
+[ 2025-06-28 15:18:05,204 ] 24 root - INFO - Fetching news for TCS
+[ 2025-06-28 15:18:06,752 ] 45 root - INFO - Fetching Reddit posts for TCS
+[ 2025-06-28 15:18:10,941 ] 63 root - INFO - Fetching Twitter posts for TCS
+[ 2025-06-28 15:18:11,763 ] 77 root - INFO - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 15:18:11,763 ] 81 root - INFO - Fetching SEC filings for TCS
+[ 2025-06-28 15:18:13,896 ] 112 root - INFO - Fetching technical indicators for TCS
+[ 2025-06-28 15:18:15,456 ] 43 root - INFO - Performing sentiment analysis
+[ 2025-06-28 15:18:15,456 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 15:18:15,559 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 15:18:15,576 ] 49 root - INFO - Storing data in MongoDB
+[ 2025-06-28 15:18:16,672 ] 26 root - INFO - Stored company data for TCS
+[ 2025-06-28 15:18:17,900 ] 37 root - INFO - Stored news for TCS
+[ 2025-06-28 15:18:20,972 ] 49 root - INFO - Stored Reddit data for TCS
+[ 2025-06-28 15:18:20,972 ] 49 root - INFO - Stored Twitter data for TCS
+[ 2025-06-28 15:18:21,075 ] 59 root - INFO - Stored financials for TCS
+[ 2025-06-28 15:18:21,075 ] 63 root - ERROR - Pipeline error: name 'logger' is not defined

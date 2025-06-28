@@ -1,0 +1,113 @@
+[ 2025-06-28 16:07:33,942 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:07:33,944 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:07:33,948 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:07:53,953 ] 20 root - ERROR - Error connecting to MongoDB: The DNS operation timed out after 20.00059175491333 seconds
+[ 2025-06-28 16:07:53,953 ] 95 root - ERROR - Pipeline error: The DNS operation timed out after 20.00059175491333 seconds
+[ 2025-06-28 16:08:37,775 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:08:37,775 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:08:37,776 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:08:49,240 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:08:49,287 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:08:49,287 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:08:49,287 ] 42 root - INFO - Starting analysis for TCS
+[ 2025-06-28 16:08:49,347 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:08:49,348 ] 97 root - INFO - Fetching Yahoo Finance data for TCS
+[ 2025-06-28 16:08:50,598 ] 25 root - INFO - Fetching news for TCS
+[ 2025-06-28 16:08:52,408 ] 46 root - INFO - Fetching Reddit posts for TCS
+[ 2025-06-28 16:08:52,409 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:08:56,324 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:08:56,998 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:08:57,524 ] 64 root - INFO - Fetching Twitter posts for TCS
+[ 2025-06-28 16:08:58,161 ] 82 root - INFO - Fetching SEC filings for TCS
+[ 2025-06-28 16:09:00,303 ] 113 root - INFO - Fetching technical indicators for TCS
+[ 2025-06-28 16:09:02,354 ] 84 root - INFO - Stored technicals for TCS
+[ 2025-06-28 16:09:02,356 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:09:02,356 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:09:02,454 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:09:02,476 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:09:02,547 ] 31 root - INFO - Stored company data for TCS
+[ 2025-06-28 16:09:03,784 ] 42 root - INFO - Stored news for TCS
+[ 2025-06-28 16:09:06,753 ] 54 root - INFO - Stored Reddit data for TCS
+[ 2025-06-28 16:09:08,187 ] 54 root - INFO - Stored Twitter data for TCS
+[ 2025-06-28 16:09:08,299 ] 64 root - INFO - Stored financials for TCS
+[ 2025-06-28 16:09:08,404 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc6464f2b77479d2b5314') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc6464f2b77479d2b5314') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fc6464f2b77479d2b5314')}}
+[ 2025-06-28 16:09:08,405 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:09:08,405 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:09:08,405 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 16:09:08,490 ] 74 root - INFO - Stored recommendation for TCS
+[ 2025-06-28 16:09:08,490 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:09:08,491 ] 10 root - INFO - Generating report for TCS
+[ 2025-06-28 16:09:08,491 ] 38 root - ERROR - Error generating report: unsupported format string passed to NoneType.__format__
+[ 2025-06-28 16:09:16,560 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:09:16,560 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:09:16,561 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:09:19,656 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:09:19,681 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:09:19,681 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:09:19,681 ] 42 root - INFO - Starting analysis for TCS
+[ 2025-06-28 16:09:19,968 ] 10 root - INFO - Generating report for TCS
+[ 2025-06-28 16:09:19,970 ] 38 root - ERROR - Error generating report: Cannot specify ',' with 's'.
+[ 2025-06-28 16:10:43,053 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:10:43,054 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:10:43,054 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:10:46,581 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:10:46,603 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:10:46,603 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:10:46,604 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-06-28 16:10:46,698 ] 61 root - INFO - Initiating data ingestion
+[ 2025-06-28 16:10:46,698 ] 97 root - INFO - Fetching Yahoo Finance data for AAPL
+[ 2025-06-28 16:10:48,236 ] 25 root - INFO - Fetching news for AAPL
+[ 2025-06-28 16:10:48,978 ] 46 root - INFO - Fetching Reddit posts for AAPL
+[ 2025-06-28 16:10:48,978 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:10:51,007 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:10:51,519 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-06-28 16:10:52,132 ] 64 root - INFO - Fetching Twitter posts for AAPL
+[ 2025-06-28 16:10:52,743 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 16:10:52,743 ] 82 root - INFO - Fetching SEC filings for AAPL
+[ 2025-06-28 16:10:54,482 ] 113 root - INFO - Fetching technical indicators for AAPL
+[ 2025-06-28 16:10:57,246 ] 84 root - INFO - Stored technicals for AAPL
+[ 2025-06-28 16:10:57,248 ] 70 root - INFO - Performing sentiment analysis
+[ 2025-06-28 16:10:57,248 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 16:10:57,266 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 16:10:57,280 ] 75 root - INFO - Storing data in MongoDB
+[ 2025-06-28 16:10:57,451 ] 31 root - INFO - Stored company data for AAPL
+[ 2025-06-28 16:10:58,679 ] 42 root - INFO - Stored news for AAPL
+[ 2025-06-28 16:11:02,470 ] 54 root - INFO - Stored Reddit data for AAPL
+[ 2025-06-28 16:11:02,470 ] 54 root - INFO - Stored Twitter data for AAPL
+[ 2025-06-28 16:11:02,571 ] 64 root - INFO - Stored financials for AAPL
+[ 2025-06-28 16:11:02,676 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc6b94f2b77479d2b5346') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('685fc6b94f2b77479d2b5346') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('685fc6b94f2b77479d2b5346')}}
+[ 2025-06-28 16:11:02,677 ] 84 root - INFO - Generating recommendation
+[ 2025-06-28 16:11:02,677 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 16:11:02,677 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 16:11:02,777 ] 74 root - INFO - Stored recommendation for AAPL
+[ 2025-06-28 16:11:02,777 ] 89 root - INFO - Generating final report
+[ 2025-06-28 16:11:02,778 ] 10 root - INFO - Generating report for AAPL
+[ 2025-06-28 16:11:02,778 ] 38 root - ERROR - Error generating report: 'platform'
+[ 2025-06-28 16:14:58,213 ] 35 root - INFO - Initializing pipeline components
+[ 2025-06-28 16:14:58,215 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-06-28 16:14:58,234 ] 7 root - INFO - Initializing DataStorage
+[ 2025-06-28 16:15:00,945 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 16:15:00,981 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 16:15:00,981 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 16:15:00,981 ] 42 root - INFO - Starting analysis for TCS
+[ 2025-06-28 16:15:01,170 ] 10 root - INFO - Generating report for TCS
+[ 2025-06-28 16:15:01,177 ] 38 root - ERROR - Error generating report: Cannot specify ',' with 's'.

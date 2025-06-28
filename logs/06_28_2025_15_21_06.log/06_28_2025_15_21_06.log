@@ -1,0 +1,28 @@
+[ 2025-06-28 15:21:10,871 ] 21 root - INFO - Initializing pipeline components
+[ 2025-06-28 15:21:10,872 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 15:21:10,875 ] 9 root - INFO - Initializing DataStorage
+[ 2025-06-28 15:21:11,386 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 15:21:11,417 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 15:21:32,994 ] 30 root - INFO - Starting analysis for INFY
+[ 2025-06-28 15:21:32,994 ] 33 root - INFO - Initiating data ingestion
+[ 2025-06-28 15:21:32,994 ] 96 root - INFO - Fetching Yahoo Finance data for INFY
+[ 2025-06-28 15:21:34,932 ] 24 root - INFO - Fetching news for INFY
+[ 2025-06-28 15:21:35,649 ] 45 root - INFO - Fetching Reddit posts for INFY
+[ 2025-06-28 15:21:39,744 ] 63 root - INFO - Fetching Twitter posts for INFY
+[ 2025-06-28 15:21:40,560 ] 77 root - INFO - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-06-28 15:21:40,560 ] 81 root - INFO - Fetching SEC filings for INFY
+[ 2025-06-28 15:21:42,300 ] 112 root - INFO - Fetching technical indicators for INFY
+[ 2025-06-28 15:21:44,063 ] 43 root - INFO - Performing sentiment analysis
+[ 2025-06-28 15:21:44,063 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 15:21:44,169 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 15:21:44,183 ] 49 root - INFO - Storing data in MongoDB
+[ 2025-06-28 15:21:45,679 ] 26 root - INFO - Stored company data for INFY
+[ 2025-06-28 15:21:47,929 ] 37 root - INFO - Stored news for INFY
+[ 2025-06-28 15:21:54,280 ] 49 root - INFO - Stored Reddit data for INFY
+[ 2025-06-28 15:21:54,280 ] 49 root - INFO - Stored Twitter data for INFY
+[ 2025-06-28 15:21:54,380 ] 59 root - INFO - Stored financials for INFY
+[ 2025-06-28 15:21:54,380 ] 57 root - INFO - Generating recommendation
+[ 2025-06-28 15:21:54,380 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 15:21:54,382 ] 44 root - INFO - Recommendation: Buy
+[ 2025-06-28 15:21:54,587 ] 69 root - INFO - Stored recommendation for INFY
