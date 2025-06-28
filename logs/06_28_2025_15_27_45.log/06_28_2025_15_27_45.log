@@ -1,0 +1,32 @@
+[ 2025-06-28 15:27:50,138 ] 22 root - INFO - Initializing pipeline components
+[ 2025-06-28 15:27:50,139 ] 12 root - INFO - Initializing DataFetcher
+[ 2025-06-28 15:27:50,141 ] 9 root - INFO - Initializing DataStorage
+[ 2025-06-28 15:27:50,530 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-06-28 15:27:50,551 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-06-28 15:27:50,551 ] 7 root - INFO - Initializing ReportGenerator
+[ 2025-06-28 15:28:14,270 ] 32 root - INFO - Starting analysis for WIPRO
+[ 2025-06-28 15:28:14,271 ] 35 root - INFO - Initiating data ingestion
+[ 2025-06-28 15:28:14,271 ] 96 root - INFO - Fetching Yahoo Finance data for WIPRO
+[ 2025-06-28 15:28:15,729 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-06-28 15:28:16,252 ] 24 root - INFO - Fetching news for WIPRO
+[ 2025-06-28 15:28:17,077 ] 45 root - INFO - Fetching Reddit posts for WIPRO
+[ 2025-06-28 15:28:20,855 ] 63 root - INFO - Fetching Twitter posts for WIPRO
+[ 2025-06-28 15:28:21,670 ] 81 root - INFO - Fetching SEC filings for WIPRO
+[ 2025-06-28 15:28:23,332 ] 112 root - INFO - Fetching technical indicators for WIPRO
+[ 2025-06-28 15:28:24,744 ] 123 root - INFO - Error fetching technical indicators: max() iterable argument is empty
+[ 2025-06-28 15:28:24,744 ] 45 root - INFO - Performing sentiment analysis
+[ 2025-06-28 15:28:24,744 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-06-28 15:28:24,819 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-06-28 15:28:24,838 ] 51 root - INFO - Storing data in MongoDB
+[ 2025-06-28 15:28:26,173 ] 26 root - INFO - Stored company data for WIPRO
+[ 2025-06-28 15:28:27,284 ] 37 root - INFO - Stored news for WIPRO
+[ 2025-06-28 15:28:30,531 ] 49 root - INFO - Stored Reddit data for WIPRO
+[ 2025-06-28 15:28:31,701 ] 49 root - INFO - Stored Twitter data for WIPRO
+[ 2025-06-28 15:28:31,804 ] 59 root - INFO - Stored financials for WIPRO
+[ 2025-06-28 15:28:31,805 ] 59 root - INFO - Generating recommendation
+[ 2025-06-28 15:28:31,805 ] 9 root - INFO - Generating recommendation
+[ 2025-06-28 15:28:31,805 ] 44 root - INFO - Recommendation: Hold
+[ 2025-06-28 15:28:32,010 ] 69 root - INFO - Stored recommendation for WIPRO
+[ 2025-06-28 15:28:32,010 ] 64 root - INFO - Generating final report
+[ 2025-06-28 15:28:32,010 ] 10 root - INFO - Generating report for WIPRO
+[ 2025-06-28 15:28:32,010 ] 38 root - ERROR - Error generating report: unsupported format string passed to NoneType.__format__

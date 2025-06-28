@@ -3,6 +3,7 @@ from INVESTMENT_THESIS.Components.Data_Fetcher import DataFetcher
 from INVESTMENT_THESIS.Components.Data_Storage import DataStorage
 from INVESTMENT_THESIS.Components.Sentiment_Analyzer import SentimentAnalyzer
 from INVESTMENT_THESIS.Components.Recommendation_Engine import RecommendationEngine
+from INVESTMENT_THESIS.Components.Report_Genrator import ReportGenerator
 
 from INVESTMENT_THESIS.Logging.logger import logging
 
@@ -23,6 +24,7 @@ def main():
         data_storage = DataStorage(data_storage_config)
         sentiment_analyzer = SentimentAnalyzer(sentiment_analysis_config)
         recommendation_engine = RecommendationEngine(recommendation_config)
+        report_generator = ReportGenerator(report_config)
 
 
         # Get user input
@@ -57,6 +59,11 @@ def main():
         logging.info("Generating recommendation")
         recommendation = recommendation_engine.generate_recommendation(company_data, technicals, news_sentiment, social_sentiment)
         data_storage.store_recommendation(ticker, {"recommendation": recommendation})
+
+        # Generate report
+        logging.info("Generating final report")
+        report = report_generator.generate_report(ticker, company_data, news, social_sentiment, financials, technicals, recommendation)
+        print(report)
 
 
     except Exception as e:
