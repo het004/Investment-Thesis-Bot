@@ -2,34 +2,35 @@ name: Sync to Hugging Face hub
 
 on:
   push:
-    branches: [master]  # or main if applicable
+    branches: [master]  # Change to [main] if your default branch is 'main'
   workflow_dispatch:
 
 jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           lfs: true
 
       - name: Ensure README metadata
+        shell: bash
         run: |
           if [ ! -f README.md ] || ! grep -q "^---" README.md; then
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            cat > README.md <<'EOF'
----
-title: Investment Thesis Bot
-app_file: app.py
-sdk: gradio
----
-
-# Investment Thesis Bot
-
-This app helps users analyze and generate investment theses.
-EOF
+            echo '---' > README.md
+            echo 'title: Investment Thesis Bot' >> README.md
+            echo 'app_file: app.py' >> README.md    # Change to your actual entrypoint if different
+            echo 'sdk: gradio' >> README.md         # Or streamlit / flask / etc.
+            echo '---' >> README.md
+            echo '' >> README.md
+            echo '# Investment Thesis Bot' >> README.md
+            echo '' >> README.md
+            echo 'This app helps users analyze and generate investment theses.' >> README.md
             git add README.md
             git commit -m "Add/update README metadata"
           fi
