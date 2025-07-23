@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://het004:$HF_TOKEN@huggingface.co/spaces/het004/Investment_Thesis_Bot main
+        run: git push --force https://het004:$HF_TOKEN@huggingface.co/spaces/het004/Investment_Thesis_Bot main
