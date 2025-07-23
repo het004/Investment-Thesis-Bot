@@ -1,20 +1,34 @@
 name: Sync to Hugging Face hub
+
 on:
   push:
-    branches: [main]
-
-  ## to run this workflow manually from the Actions tab
+    branches: [master]  # Change to [main] if your branch is actually named main
   workflow_dispatch:
 
 jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           lfs: true
-      - name: Push to hub
+
+      - name: Check current branch
+        run: |
+          echo "Current branch:"
+          git branch
+
+      - name: Show Git remotes and log
+        run: |
+          git remote -v
+          git log -1 || echo "No commits yet"
+
+      - name: Push to Hugging Face Hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://het004:$HF_TOKEN@huggingface.co/spaces/het004/Investment_Thesis_Bot main
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git push --force https://het004:${HF_TOKEN}@huggingface.co/spaces/het004/Investment_Thesis_Bot master
