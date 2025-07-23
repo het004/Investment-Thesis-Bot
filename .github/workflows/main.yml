@@ -2,7 +2,7 @@ name: Sync to Hugging Face hub
 
 on:
   push:
-    branches: [master]  # or [main]
+    branches: [master]  # or main if applicable
   workflow_dispatch:
 
 jobs:
@@ -17,23 +17,25 @@ jobs:
       - name: Ensure README metadata
         run: |
           if [ ! -f README.md ] || ! grep -q "^---" README.md; then
-            cat <<EOF > README.md
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            cat > README.md <<'EOF'
 ---
 title: Investment Thesis Bot
 app_file: app.py
 sdk: gradio
 ---
+
 # Investment Thesis Bot
+
+This app helps users analyze and generate investment theses.
 EOF
-            git config user.name "github-actions"
-            git config user.email "github-actions@github.com"
             git add README.md
             git commit -m "Add/update README metadata"
           fi
 
-      - run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git push --force https://het004:${HF_TOKEN}@huggingface.co/spaces/het004/Investment_Thesis_Bot master
+      - name: Push to Hugging Face Hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git push --force https://het004:${HF_TOKEN}@huggingface.co/spaces/het004/Investment_Thesis_Bot master
