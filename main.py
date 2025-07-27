@@ -20,6 +20,21 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 ist = timezone("Asia/Kolkata")
 
+# Helper to split the report into HTML chunks
+def extract_sections(report: str) -> dict:
+    def section(name):
+        pattern = fr"<h2>{re.escape(name)}</h2>(.*?)(?=<h2>|</div>|$)"
+        match = re.search(pattern, report, re.DOTALL)
+        return match.group(1).strip() if match else "<p>No data available.</p>"
+    return {
+        "overview": section("Company Overview"),
+        "news": section("News Summary"),
+        "sentiment": section("Social Sentiment"),
+        "financials": section("Financial Overview"),
+        "technicals": section("Technical Indicators"),
+        "recommendation": section("Final Recommendation")
+    }
+
 def run_pipeline(ticker: str) -> dict:
     try:
         current_time = datetime.now(ist).strftime("%I:%M %p IST on %B %d, %Y")
@@ -91,17 +106,22 @@ async def generate_report(request: Request, ticker: str = Form(...)):
         return templates.TemplateResponse("index.html", {"request": request, "error": "Invalid ticker format."})
     result = run_pipeline(ticker)
     if result["status"] == "success":
+        sections = extract_sections(result["report"])
         return templates.TemplateResponse(
             "report.html",
-            {"request": request, "report": result["report"], "ticker": result["ticker"], "last_update": result["last_update"]}
+            {
+                "request": request,
+                "ticker": result["ticker"],
+                "last_update": result["last_update"],
+                **sections
+            }
         )
     else:
-        return templates.TemplateResponse("report.html", {"request": request, "report": None, "ticker": None})
+        return templates.TemplateResponse("report.html", {"request": request, "ticker": None})
 
 @app.get("/api/report/{ticker}", summary="Get Investment Thesis Report", description="Returns a detailed investment report for the given ticker symbol.")
 async def get_report(ticker: str):
-    result = run_pipeline(ticker)
-    return result
+    return run_pipeline(ticker)
 
 @app.get("/download-report/{ticker}")
 async def download_report(ticker: str):
@@ -110,9 +130,15 @@ async def download_report(ticker: str):
         raise HTTPException(status_code=500, detail=result["message"])
     report_html = result["report"]
     file_path = f"{ticker}_report.pdf"
-    pdfkit.from_string(report_html, file_path)
-    return FileResponse(file_path, media_type='application/pdf', filename=file_path)
+    
+
+    try:
+        pdfkit.from_string(report_html, file_path)
+        return FileResponse(file_path, media_type='application/pdf', filename=file_path)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"PDF generation failed: {e}")
 
 if __name__ == "__main__":
+    pass  # For deployment on Render 
     # import uvicorn
     # uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
