@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investment Thesis Report - {{ ticker }}</title>
-    <link href="static\style.css" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Investment Thesis Report for {{ ticker }}</h1>
-        <div class="report-content">
-            {{ report | replace('\n', '<br>') | replace('## ', '<h2>') | replace('# ', '<h1>') | safe }}
-        </div>
+        {% if report and ticker %}
+            <h1 class="title">Investment Thesis Report for {{ ticker }}</h1>
+            <p class="update-time">Last updated at: {{ last_update }}</p>
+
+            <div class="section">
+                <h2>Overview</h2>
+                <div class="report-content">
+                    {{ report | replace('\n', '<br>') | replace('## ', '</div><div class="section"><h2>') | replace('# ', '</div><div class="section"><h1>') | safe }}
+                </div>
+            </div>
+
+            <form action="/download-report/{{ ticker }}" method="get">
+                <button type="submit">Download PDF</button>
+            </form>
+        {% else %}
+            <h1 class="title">No report generated</h1>
+            <p class="error">Please enter a valid company ticker to generate the report.</p>
+            <a href="/">Go back to Home</a>
+        {% endif %}
         <a href="/">Generate Another Report</a>
     </div>
 </body>
