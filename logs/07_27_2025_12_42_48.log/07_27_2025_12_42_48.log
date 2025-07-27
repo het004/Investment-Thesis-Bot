@@ -1,0 +1,427 @@
+[ 2025-07-27 12:42:49,172 ] 119 root - INFO - App ready to be served 
+[ 2025-07-27 12:47:18,309 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:47:18,309 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:47:19,092 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:47:21,201 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:47:21,235 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:47:21,235 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:47:21,235 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 12:47:21,336 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 12:47:21,337 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-07-27 12:47:30,772 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:47:30,773 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:47:30,773 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:47:32,259 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:47:32,270 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:47:32,271 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:47:32,271 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 12:47:32,343 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 12:47:32,344 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 12:47:32,352 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:47:32,352 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:47:32,353 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:47:33,980 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:47:33,989 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:47:33,989 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:47:33,989 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 12:47:34,058 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 12:47:34,059 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 12:49:44,406 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:49:44,406 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:49:44,407 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:49:46,180 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:49:46,200 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:49:46,200 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:49:46,200 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 12:49:46,339 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 12:49:46,339 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 12:49:51,122 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:49:51,122 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:49:51,122 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:49:55,303 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:49:55,315 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:49:55,315 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:49:55,315 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 12:49:55,386 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 12:49:55,386 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 12:50:00,714 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 12:50:00,714 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 12:50:00,714 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 12:50:02,262 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 12:50:02,279 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 12:50:02,279 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 12:50:02,279 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 12:50:02,345 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 12:50:02,346 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:18:27,083 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:18:27,084 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:18:27,084 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:18:32,063 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:18:32,074 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:18:32,074 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:18:32,074 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:18:32,138 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:18:32,139 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:18:32,141 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:18:32,141 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:18:32,142 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:18:33,870 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:18:33,878 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:18:33,878 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:18:33,878 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:18:33,994 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:18:33,995 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:18:38,345 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:18:38,345 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:18:38,345 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:18:58,201 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:18:58,215 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:18:58,215 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:18:58,215 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:19:00,278 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:19:00,278 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:22:25,687 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:22:25,687 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:22:25,688 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:22:27,621 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:22:27,630 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:22:27,630 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:22:27,630 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:22:27,698 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:22:27,698 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:22:46,228 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:22:46,228 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:22:46,229 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:22:47,861 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:22:47,873 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:22:47,873 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:22:47,874 ] 42 root - INFO - Starting analysis for msft
+[ 2025-07-27 13:22:47,941 ] 53 root - INFO - Initiating data ingestion
+[ 2025-07-27 13:22:47,948 ] 97 root - INFO - Fetching Yahoo Finance data for msft
+[ 2025-07-27 13:22:49,422 ] 25 root - INFO - Fetching news for msft
+[ 2025-07-27 13:22:51,841 ] 46 root - INFO - Fetching Reddit posts for msft
+[ 2025-07-27 13:22:51,854 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-07-27 13:22:52,444 ] 60 root - ERROR - Error fetching Reddit posts: received 401 HTTP response
+[ 2025-07-27 13:22:52,444 ] 64 root - INFO - Fetching Twitter posts for msft
+[ 2025-07-27 13:22:53,146 ] 82 root - INFO - Fetching SEC filings for msft
+[ 2025-07-27 13:22:54,632 ] 113 root - INFO - Fetching technical indicators for msft
+[ 2025-07-27 13:22:56,984 ] 84 root - INFO - Stored technicals for msft
+[ 2025-07-27 13:22:56,985 ] 61 root - INFO - Performing sentiment analysis
+[ 2025-07-27 13:22:56,985 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-07-27 13:22:57,093 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-07-27 13:22:57,100 ] 65 root - INFO - Storing data in MongoDB
+[ 2025-07-27 13:22:57,186 ] 31 root - INFO - Stored company data for msft
+[ 2025-07-27 13:22:58,041 ] 42 root - INFO - Stored news for msft
+[ 2025-07-27 13:22:58,048 ] 54 root - INFO - Stored Reddit data for msft
+[ 2025-07-27 13:22:58,946 ] 54 root - INFO - Stored Twitter data for msft
+[ 2025-07-27 13:22:59,110 ] 64 root - INFO - Stored financials for msft
+[ 2025-07-27 13:22:59,190 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885dad802f4bac022184b80') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885dad802f4bac022184b80') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6885dad802f4bac022184b80')}}
+[ 2025-07-27 13:22:59,190 ] 73 root - INFO - Generating recommendation
+[ 2025-07-27 13:22:59,190 ] 9 root - INFO - Generating recommendation
+[ 2025-07-27 13:22:59,190 ] 44 root - INFO - Recommendation: Hold
+[ 2025-07-27 13:22:59,263 ] 74 root - INFO - Stored recommendation for msft
+[ 2025-07-27 13:22:59,264 ] 77 root - INFO - Generating final report
+[ 2025-07-27 13:22:59,264 ] 9 root - INFO - Generating report for msft
+[ 2025-07-27 13:22:59,264 ] 66 root - INFO - Report generated successfully for msft
+[ 2025-07-27 13:25:21,140 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:25:21,140 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:25:21,141 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:25:22,989 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:25:23,005 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:25:23,005 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:25:23,005 ] 42 root - INFO - Starting analysis for msft
+[ 2025-07-27 13:25:23,104 ] 9 root - INFO - Generating report for msft
+[ 2025-07-27 13:25:23,104 ] 66 root - INFO - Report generated successfully for msft
+[ 2025-07-27 13:25:49,859 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:25:49,859 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:25:49,859 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:25:51,264 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:25:51,276 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:25:51,276 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:25:51,276 ] 42 root - INFO - Starting analysis for msft
+[ 2025-07-27 13:25:51,359 ] 9 root - INFO - Generating report for msft
+[ 2025-07-27 13:25:51,359 ] 66 root - INFO - Report generated successfully for msft
+[ 2025-07-27 13:26:10,423 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:26:10,423 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:26:10,424 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:26:12,146 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:26:12,159 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:26:12,159 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:26:12,159 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 13:26:12,231 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 13:26:12,232 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-07-27 13:26:20,836 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:26:20,837 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:26:20,837 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:26:22,264 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:26:22,278 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:26:22,278 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:26:22,278 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:26:22,337 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:26:22,337 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:26:37,967 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:26:37,967 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:26:37,968 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:26:40,474 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:26:40,484 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:26:40,484 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:26:40,485 ] 42 root - INFO - Starting analysis for msft
+[ 2025-07-27 13:26:40,548 ] 9 root - INFO - Generating report for msft
+[ 2025-07-27 13:26:40,549 ] 66 root - INFO - Report generated successfully for msft
+[ 2025-07-27 13:29:25,169 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:29:25,169 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:29:25,169 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:29:26,968 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:29:26,987 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:29:26,987 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:29:26,987 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:29:27,060 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:29:27,060 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:29:35,409 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:29:35,409 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:29:35,410 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:29:36,839 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:29:36,851 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:29:36,851 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:29:36,851 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:29:36,916 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:29:36,916 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:31:18,019 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:31:18,019 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:31:18,020 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:31:19,870 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:31:19,882 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:31:19,882 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:31:19,882 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:31:19,943 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:31:19,944 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:31:32,094 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:31:32,094 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:31:32,094 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:31:33,608 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:31:33,619 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:31:33,619 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:31:33,619 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:31:33,711 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:31:33,711 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:31:38,375 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:31:38,375 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:31:38,375 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:31:40,036 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:31:40,046 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:31:40,046 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:31:40,046 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:31:40,111 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:31:40,112 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:31:51,392 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:31:51,393 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:31:51,393 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:31:52,716 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:31:52,728 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:31:52,728 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:31:52,728 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:31:52,809 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:31:52,810 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:34:07,545 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:34:07,545 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:34:07,546 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:34:14,132 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:34:14,140 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:34:14,140 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:34:14,140 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:34:14,234 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:34:14,234 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:34:23,883 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:34:23,883 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:34:23,883 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:34:26,592 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:34:26,605 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:34:26,605 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:34:26,605 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:34:26,678 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:34:26,678 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:35:23,071 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:35:23,071 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:35:23,071 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:35:25,040 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:35:25,052 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:35:25,052 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:35:25,052 ] 42 root - INFO - Starting analysis for bkh
+[ 2025-07-27 13:35:25,116 ] 53 root - INFO - Initiating data ingestion
+[ 2025-07-27 13:35:25,116 ] 97 root - INFO - Fetching Yahoo Finance data for bkh
+[ 2025-07-27 13:35:25,958 ] 25 root - INFO - Fetching news for bkh
+[ 2025-07-27 13:35:27,562 ] 46 root - INFO - Fetching Reddit posts for bkh
+[ 2025-07-27 13:35:27,562 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-07-27 13:35:28,133 ] 60 root - ERROR - Error fetching Reddit posts: received 401 HTTP response
+[ 2025-07-27 13:35:28,133 ] 64 root - INFO - Fetching Twitter posts for bkh
+[ 2025-07-27 13:35:28,715 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-07-27 13:35:28,715 ] 82 root - INFO - Fetching SEC filings for bkh
+[ 2025-07-27 13:35:30,174 ] 113 root - INFO - Fetching technical indicators for bkh
+[ 2025-07-27 13:35:32,396 ] 84 root - INFO - Stored technicals for bkh
+[ 2025-07-27 13:35:32,397 ] 61 root - INFO - Performing sentiment analysis
+[ 2025-07-27 13:35:32,397 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-07-27 13:35:32,405 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-07-27 13:35:32,405 ] 65 root - INFO - Storing data in MongoDB
+[ 2025-07-27 13:35:32,517 ] 31 root - INFO - Stored company data for bkh
+[ 2025-07-27 13:35:33,357 ] 42 root - INFO - Stored news for bkh
+[ 2025-07-27 13:35:33,357 ] 54 root - INFO - Stored Reddit data for bkh
+[ 2025-07-27 13:35:33,357 ] 54 root - INFO - Stored Twitter data for bkh
+[ 2025-07-27 13:35:33,442 ] 64 root - INFO - Stored financials for bkh
+[ 2025-07-27 13:35:33,516 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885ddcc02f4bac022184ba5') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885ddcc02f4bac022184ba5') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6885ddcc02f4bac022184ba5')}}
+[ 2025-07-27 13:35:33,516 ] 73 root - INFO - Generating recommendation
+[ 2025-07-27 13:35:33,517 ] 9 root - INFO - Generating recommendation
+[ 2025-07-27 13:35:33,517 ] 44 root - INFO - Recommendation: Buy
+[ 2025-07-27 13:35:33,572 ] 74 root - INFO - Stored recommendation for bkh
+[ 2025-07-27 13:35:33,572 ] 77 root - INFO - Generating final report
+[ 2025-07-27 13:35:33,572 ] 9 root - INFO - Generating report for bkh
+[ 2025-07-27 13:35:33,573 ] 66 root - INFO - Report generated successfully for bkh
+[ 2025-07-27 13:35:51,000 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:35:51,000 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:35:51,001 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:35:52,438 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:35:52,450 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:35:52,450 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:35:52,450 ] 42 root - INFO - Starting analysis for mata
+[ 2025-07-27 13:35:52,518 ] 53 root - INFO - Initiating data ingestion
+[ 2025-07-27 13:35:52,518 ] 97 root - INFO - Fetching Yahoo Finance data for mata
+[ 2025-07-27 13:35:53,121 ] 592 yfinance - ERROR - HTTP Error 404: 
+[ 2025-07-27 13:35:53,478 ] 25 root - INFO - Fetching news for mata
+[ 2025-07-27 13:35:54,130 ] 46 root - INFO - Fetching Reddit posts for mata
+[ 2025-07-27 13:35:54,131 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-07-27 13:35:54,725 ] 60 root - ERROR - Error fetching Reddit posts: received 401 HTTP response
+[ 2025-07-27 13:35:54,725 ] 64 root - INFO - Fetching Twitter posts for mata
+[ 2025-07-27 13:35:55,198 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-07-27 13:35:55,199 ] 82 root - INFO - Fetching SEC filings for mata
+[ 2025-07-27 13:35:56,491 ] 113 root - INFO - Fetching technical indicators for mata
+[ 2025-07-27 13:35:57,269 ] 143 root - ERROR - No RSI data returned by Alpha Vantage
+[ 2025-07-27 13:35:57,269 ] 61 root - INFO - Performing sentiment analysis
+[ 2025-07-27 13:35:57,270 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-07-27 13:35:57,278 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-07-27 13:35:57,278 ] 65 root - INFO - Storing data in MongoDB
+[ 2025-07-27 13:35:57,367 ] 31 root - INFO - Stored company data for mata
+[ 2025-07-27 13:35:58,320 ] 42 root - INFO - Stored news for mata
+[ 2025-07-27 13:35:58,320 ] 54 root - INFO - Stored Reddit data for mata
+[ 2025-07-27 13:35:58,320 ] 54 root - INFO - Stored Twitter data for mata
+[ 2025-07-27 13:35:58,400 ] 64 root - INFO - Stored financials for mata
+[ 2025-07-27 13:35:58,477 ] 84 root - INFO - Stored technicals for mata
+[ 2025-07-27 13:35:58,477 ] 73 root - INFO - Generating recommendation
+[ 2025-07-27 13:35:58,477 ] 9 root - INFO - Generating recommendation
+[ 2025-07-27 13:35:58,477 ] 44 root - INFO - Recommendation: Hold
+[ 2025-07-27 13:35:58,558 ] 74 root - INFO - Stored recommendation for mata
+[ 2025-07-27 13:35:58,558 ] 77 root - INFO - Generating final report
+[ 2025-07-27 13:35:58,559 ] 9 root - INFO - Generating report for mata
+[ 2025-07-27 13:35:58,559 ] 66 root - INFO - Report generated successfully for mata
+[ 2025-07-27 13:35:58,563 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:35:58,563 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:35:58,564 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:36:00,397 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:36:00,409 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:36:00,410 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:36:00,410 ] 42 root - INFO - Starting analysis for meta
+[ 2025-07-27 13:36:00,483 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 13:36:00,484 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 13:36:22,225 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:36:22,225 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:36:22,226 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:36:23,614 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:36:23,626 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:36:23,626 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:36:23,626 ] 42 root - INFO - Starting analysis for nyc
+[ 2025-07-27 13:36:23,684 ] 53 root - INFO - Initiating data ingestion
+[ 2025-07-27 13:36:23,684 ] 97 root - INFO - Fetching Yahoo Finance data for nyc
+[ 2025-07-27 13:36:24,121 ] 25 root - INFO - Fetching news for nyc
+[ 2025-07-27 13:36:25,461 ] 46 root - INFO - Fetching Reddit posts for nyc
+[ 2025-07-27 13:36:25,462 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-07-27 13:36:26,002 ] 60 root - ERROR - Error fetching Reddit posts: received 401 HTTP response
+[ 2025-07-27 13:36:26,003 ] 64 root - INFO - Fetching Twitter posts for nyc
+[ 2025-07-27 13:36:26,528 ] 78 root - ERROR - Error fetching Twitter posts: 429 Too Many Requests
+Too Many Requests
+[ 2025-07-27 13:36:26,528 ] 82 root - INFO - Fetching SEC filings for nyc
+[ 2025-07-27 13:36:27,830 ] 113 root - INFO - Fetching technical indicators for nyc
+[ 2025-07-27 13:36:29,532 ] 84 root - INFO - Stored technicals for nyc
+[ 2025-07-27 13:36:29,533 ] 61 root - INFO - Performing sentiment analysis
+[ 2025-07-27 13:36:29,533 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-07-27 13:36:29,541 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-07-27 13:36:29,541 ] 65 root - INFO - Storing data in MongoDB
+[ 2025-07-27 13:36:29,598 ] 31 root - INFO - Stored company data for nyc
+[ 2025-07-27 13:36:30,278 ] 42 root - INFO - Stored news for nyc
+[ 2025-07-27 13:36:30,279 ] 54 root - INFO - Stored Reddit data for nyc
+[ 2025-07-27 13:36:30,279 ] 54 root - INFO - Stored Twitter data for nyc
+[ 2025-07-27 13:36:30,363 ] 64 root - INFO - Stored financials for nyc
+[ 2025-07-27 13:36:30,437 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885de0502f4bac022184bc2') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885de0502f4bac022184bc2') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6885de0502f4bac022184bc2')}}
+[ 2025-07-27 13:36:30,437 ] 73 root - INFO - Generating recommendation
+[ 2025-07-27 13:36:30,438 ] 9 root - INFO - Generating recommendation
+[ 2025-07-27 13:36:30,438 ] 44 root - INFO - Recommendation: Hold
+[ 2025-07-27 13:36:30,487 ] 74 root - INFO - Stored recommendation for nyc
+[ 2025-07-27 13:36:30,487 ] 77 root - INFO - Generating final report
+[ 2025-07-27 13:36:30,487 ] 9 root - INFO - Generating report for nyc
+[ 2025-07-27 13:36:30,487 ] 66 root - INFO - Report generated successfully for nyc
+[ 2025-07-27 13:37:10,451 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:37:10,451 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:37:10,451 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:37:12,762 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:37:12,774 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:37:12,774 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:37:12,774 ] 42 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 13:37:12,839 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 13:37:12,839 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-07-27 13:37:59,963 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:37:59,963 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:37:59,965 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:38:02,721 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:38:02,734 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:38:02,734 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:38:02,734 ] 42 root - INFO - Starting analysis for GOOG
+[ 2025-07-27 13:38:02,799 ] 53 root - INFO - Initiating data ingestion
+[ 2025-07-27 13:38:02,799 ] 97 root - INFO - Fetching Yahoo Finance data for GOOG
+[ 2025-07-27 13:38:03,240 ] 25 root - INFO - Fetching news for GOOG
+[ 2025-07-27 13:38:03,893 ] 46 root - INFO - Fetching Reddit posts for GOOG
+[ 2025-07-27 13:38:03,893 ] 457 praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+[ 2025-07-27 13:38:04,449 ] 60 root - ERROR - Error fetching Reddit posts: received 401 HTTP response
+[ 2025-07-27 13:38:04,449 ] 64 root - INFO - Fetching Twitter posts for GOOG
+[ 2025-07-27 13:38:05,062 ] 82 root - INFO - Fetching SEC filings for GOOG
+[ 2025-07-27 13:38:06,536 ] 113 root - INFO - Fetching technical indicators for GOOG
+[ 2025-07-27 13:38:08,363 ] 84 root - INFO - Stored technicals for GOOG
+[ 2025-07-27 13:38:08,364 ] 61 root - INFO - Performing sentiment analysis
+[ 2025-07-27 13:38:08,364 ] 13 root - INFO - Analyzing news sentiment
+[ 2025-07-27 13:38:08,371 ] 31 root - INFO - Analyzing social media sentiment
+[ 2025-07-27 13:38:08,377 ] 65 root - INFO - Storing data in MongoDB
+[ 2025-07-27 13:38:08,443 ] 31 root - INFO - Stored company data for GOOG
+[ 2025-07-27 13:38:09,199 ] 42 root - INFO - Stored news for GOOG
+[ 2025-07-27 13:38:09,199 ] 54 root - INFO - Stored Reddit data for GOOG
+[ 2025-07-27 13:38:10,001 ] 54 root - INFO - Stored Twitter data for GOOG
+[ 2025-07-27 13:38:10,084 ] 64 root - INFO - Stored financials for GOOG
+[ 2025-07-27 13:38:10,162 ] 86 root - ERROR - Error storing technicals: E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885de6802f4bac022184bd1') }, full error: {'index': 0, 'code': 11000, 'errmsg': "E11000 duplicate key error collection: investment_bot.technicals index: _id_ dup key: { _id: ObjectId('6885de6802f4bac022184bd1') }", 'keyPattern': {'_id': 1}, 'keyValue': {'_id': ObjectId('6885de6802f4bac022184bd1')}}
+[ 2025-07-27 13:38:10,162 ] 73 root - INFO - Generating recommendation
+[ 2025-07-27 13:38:10,162 ] 9 root - INFO - Generating recommendation
+[ 2025-07-27 13:38:10,164 ] 44 root - INFO - Recommendation: Hold
+[ 2025-07-27 13:38:10,240 ] 74 root - INFO - Stored recommendation for GOOG
+[ 2025-07-27 13:38:10,240 ] 77 root - INFO - Generating final report
+[ 2025-07-27 13:38:10,240 ] 9 root - INFO - Generating report for GOOG
+[ 2025-07-27 13:38:10,241 ] 66 root - INFO - Report generated successfully for GOOG
+[ 2025-07-27 13:38:31,639 ] 35 root - INFO - Initializing pipeline components
+[ 2025-07-27 13:38:31,639 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 13:38:31,639 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 13:38:33,242 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 13:38:33,255 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 13:38:33,255 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 13:38:33,255 ] 42 root - INFO - Starting analysis for GOOG
+[ 2025-07-27 13:38:33,321 ] 9 root - INFO - Generating report for GOOG
+[ 2025-07-27 13:38:33,321 ] 66 root - INFO - Report generated successfully for GOOG
