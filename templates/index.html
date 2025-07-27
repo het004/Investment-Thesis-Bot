@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investment Thesis Bot</title>
-    <link href="static/style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investment Thesis Bot</title>
+  <link href="static/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Investment Thesis Bot</h1>
-        <p class="description">Generate professional-grade investment thesis reports with a single click. Enter a stock ticker or company name below.</p>
-        <form action="/generate-report" method="post" onsubmit="showLoader()" class="form-box">
-            <label for="ticker">Company Ticker or Name</label>
-            <input type="text" id="ticker" name="ticker" value="{{ ticker | default('') }}" placeholder="e.g., AAPL, Microsoft" required>
-            <button type="submit">Generate Report</button>
-        </form>
-        <div id="loader" style="display:none;" class="loader">Generating Report...</div>
+  <main class="main-wrapper">
+    <section class="card">
+      <h1 class="page-title">📊 Investment Thesis Bot</h1>
+      <p class="page-description">Enter a ticker or company name to generate a premium-grade financial report.</p>
+
+      <form action="/generate-report" method="post" class="form">
+        <label for="ticker">Ticker / Company Name</label>
+        <input type="text" id="ticker" name="ticker" placeholder="e.g., NVDA or NVIDIA" value="{{ ticker | default('') }}" required />
+        <button type="submit">Generate Report</button>
         {% if error %}
-            <p class="error">{{ error }}</p>
+          <p class="form-error">{{ error }}</p>
         {% endif %}
-    </div>
-    <script>
-        function showLoader() {
-            document.getElementById("loader").style.display = "block";
-        }
-    </script>
+      </form>
+    </section>
+  </main>
 </body>
 </html>

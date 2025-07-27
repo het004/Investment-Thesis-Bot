@@ -1,0 +1,153 @@
+[ 2025-07-27 14:24:53,769 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:24:53,769 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:24:53,772 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:24:56,328 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:24:56,352 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:24:56,352 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:24:56,352 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:24:56,533 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:24:56,533 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:25:06,840 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:25:06,841 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:25:06,842 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:25:09,333 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:25:09,350 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:25:09,351 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:25:09,351 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:25:09,537 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:25:09,537 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:25:27,869 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:25:27,870 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:25:27,871 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:25:30,218 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:25:30,239 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:25:30,239 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:25:30,239 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:25:30,427 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:25:30,428 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:25:40,582 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:25:40,582 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:25:40,583 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:25:42,921 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:25:42,943 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:25:42,943 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:25:42,943 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:25:43,126 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:25:43,126 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:25:52,528 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:25:52,528 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:25:52,529 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:25:57,564 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:25:57,581 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:25:57,581 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:25:57,581 ] 43 root - INFO - Starting analysis for bkh
+[ 2025-07-27 14:25:57,769 ] 9 root - INFO - Generating report for bkh
+[ 2025-07-27 14:25:57,770 ] 66 root - INFO - Report generated successfully for bkh
+[ 2025-07-27 14:27:40,228 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:27:40,228 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:27:40,229 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:27:43,038 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:27:43,059 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:27:43,060 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:27:43,060 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:27:43,248 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:27:43,248 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:28:36,487 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:28:36,487 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:28:36,488 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:28:39,155 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:28:39,174 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:28:39,175 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:28:39,175 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:28:39,360 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:28:39,360 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:29:30,755 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:29:30,755 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:29:30,756 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:29:34,760 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:29:34,789 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:29:34,789 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:29:34,789 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:29:34,969 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:29:34,970 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:30:02,255 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:30:02,255 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:30:02,256 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:30:07,119 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:30:07,136 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:30:07,136 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:30:07,136 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:30:07,324 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:30:07,324 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:30:49,864 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:30:49,864 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:30:49,864 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:30:52,995 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:30:53,014 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:30:53,014 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:30:53,014 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:30:53,201 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:30:53,202 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:32:11,082 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:32:11,083 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:32:11,083 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:32:14,718 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:32:14,741 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:32:14,741 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:32:14,741 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:32:15,025 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:32:15,025 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:33:43,885 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:33:43,886 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:33:43,887 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:33:49,128 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:33:49,146 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:33:49,146 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:33:49,146 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:33:49,332 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:33:49,332 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:33:59,446 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:33:59,446 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:33:59,447 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:34:01,825 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:34:01,842 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:34:01,842 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:34:01,842 ] 43 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 14:34:02,030 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 14:34:02,030 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-07-27 14:35:30,031 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:35:30,032 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:35:30,032 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:35:32,554 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:35:32,572 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:35:32,572 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:35:32,572 ] 43 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 14:35:32,759 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 14:35:32,760 ] 66 root - INFO - Report generated successfully for AAPL
+[ 2025-07-27 14:35:45,880 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:35:45,880 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:35:45,881 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:35:48,734 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:35:48,752 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:35:48,752 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:35:48,752 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:35:48,939 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:35:48,940 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:37:00,217 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:37:00,218 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:37:00,218 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:37:02,976 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:37:03,001 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:37:03,001 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:37:03,001 ] 43 root - INFO - Starting analysis for meta
+[ 2025-07-27 14:37:03,180 ] 9 root - INFO - Generating report for meta
+[ 2025-07-27 14:37:03,180 ] 66 root - INFO - Report generated successfully for meta
+[ 2025-07-27 14:38:36,694 ] 36 root - INFO - Initializing pipeline components
+[ 2025-07-27 14:38:36,694 ] 13 root - INFO - Initializing DataFetcher
+[ 2025-07-27 14:38:36,695 ] 7 root - INFO - Initializing DataStorage
+[ 2025-07-27 14:38:41,896 ] 9 root - INFO - Initializing SentimentAnalyzer
+[ 2025-07-27 14:38:41,917 ] 6 root - INFO - Initializing RecommendationEngine
+[ 2025-07-27 14:38:41,918 ] 6 root - INFO - Initializing ReportGenerator
+[ 2025-07-27 14:38:41,918 ] 43 root - INFO - Starting analysis for AAPL
+[ 2025-07-27 14:38:42,101 ] 9 root - INFO - Generating report for AAPL
+[ 2025-07-27 14:38:42,102 ] 66 root - INFO - Report generated successfully for AAPL

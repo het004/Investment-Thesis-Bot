@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investment Thesis Report - {{ ticker }}</title>
-    <link href="static/style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Report - {{ ticker }}</title>
+  <link href="static/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        {% if report and ticker %}
-            <h1 class="title">Investment Thesis Report for {{ ticker }}</h1>
-            <p class="update-time">Last updated at: {{ last_update }}</p>
-            <div class="report-content">
-                {{ report | replace('\n', '<br>') | replace('## ', '<h2>') | replace('# ', '<h1>') | safe }}
-            </div>
-            <form action="/download-report/{{ ticker }}" method="get">
-                <button type="submit">Download PDF</button>
-            </form>
-        {% else %}
-            <h1 class="title">No report generated</h1>
-            <p class="error">Please enter a valid company ticker to generate the report.</p>
-            <a href="/">Go back to Home</a>
-        {% endif %}
-        <a href="/">Generate Another Report</a>
-    </div>
+  <main class="main-wrapper">
+    <section class="card">
+      <h1 class="page-title">📈 Investment Thesis: <span class="ticker">{{ ticker }}</span></h1>
+
+      <article class="report-body">
+        {{ report | replace('\n', '<br>') 
+                  | replace('### ', '<h3>') 
+                  | replace('## ', '<h2>') 
+                  | replace('# ', '<h1>') 
+                  | safe }}
+      </article>
+
+      <footer class="footer">
+        <a href="/" class="back-link">← Generate Another Report</a>
+      </footer>
+    </section>
+  </main>
 </body>
 </html>
