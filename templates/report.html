@@ -11,14 +11,9 @@
         {% if report and ticker %}
             <h1 class="title">Investment Thesis Report for {{ ticker }}</h1>
             <p class="update-time">Last updated at: {{ last_update }}</p>
-
-            <div class="section">
-                <h2>Overview</h2>
-                <div class="report-content">
-                    {{ report | replace('\n', '<br>') | replace('## ', '</div><div class="section"><h2>') | replace('# ', '</div><div class="section"><h1>') | safe }}
-                </div>
+            <div class="report-content">
+                {{ report | replace('\n', '<br>') | replace('## ', '<h2>') | replace('# ', '<h1>') | safe }}
             </div>
-
             <form action="/download-report/{{ ticker }}" method="get">
                 <button type="submit">Download PDF</button>
             </form>
